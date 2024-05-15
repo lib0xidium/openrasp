@@ -33,11 +33,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compiler.source>1.7</compiler.source>
         <compiler.target>1.7</compiler.target>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <!-- spring版本号 -->
-        <spring.version>4.0.2.RELEASE</spring.version>
+        <spring.version>5.2.24.RELEASE</spring.version>
         <!-- mybatis版本号 -->
-        <mybatis.version>3.2.6</mybatis.version>
+        <mybatis.version>3.5.6</mybatis.version>
     </properties>
 
     <dependencies>
@@ -116,7 +116,7 @@
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
-            <version>3.4.6</version>
+            <version>3.8.4</version>
         </dependency>
         <!-- mybatis核心包 -->
         <dependency>
